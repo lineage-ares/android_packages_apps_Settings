@@ -3,4 +3,7 @@
 
     <!-- Show 60Hz refresh rate toggle in battery saver -->
     <bool name="config_show_refresh_rate_controls">true</bool>
+
+    <!-- Smart Charging -->
+    <bool name="config_supportSmartCharging">false</bool>
 </resources>

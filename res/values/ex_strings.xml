@@ -12,4 +12,9 @@
     <string name="network_options_title">Options</string>
     <string name="network_traffic_autohide_title">Hide network traffic indicator is inactive</string>
     <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="battery_stats_clear" translatable="false">@string/proxy_clear_text</string>
 </resources>

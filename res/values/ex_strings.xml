@@ -30,4 +30,8 @@
     <!-- Game Space -->
     <string name="game_space_title">Game Space</string>
     <string name="game_space_summary">Enhance your gaming experience</string>
+
+    <!-- Wi-Fi Icon Standard -->
+    <string name="show_wifi_standard_icon_title">Show Wi-Fi type icon</string>
+    <string name="show_wifi_standard_icon_summary">Show Wi-Fi type in Wi-Fi signal indicator</string>
 </resources>

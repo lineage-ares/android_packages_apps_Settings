@@ -211,6 +211,13 @@
             android:defaultValue="false"
             settings:requiresFeature="lineagehardware:FEATURE_HIGH_TOUCH_SENSITIVITY" />
 
+        <!-- Wi-Fi Standard icon -->
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="show_wifi_standard_icon"
+            android:title="@string/show_wifi_standard_icon_title"
+            android:summary="@string/show_wifi_standard_icon_summary"
+            android:defaultValue="false" /> 
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"

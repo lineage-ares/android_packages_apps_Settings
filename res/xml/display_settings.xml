@@ -216,7 +216,7 @@
             android:key="show_wifi_standard_icon"
             android:title="@string/show_wifi_standard_icon_title"
             android:summary="@string/show_wifi_standard_icon_summary"
-            android:defaultValue="false" /> 
+            android:defaultValue="false" />
 
         <ListPreference
             android:key="theme"
@@ -228,4 +228,19 @@
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Misc">
+
+        <!-- QS Header Image -->
+        <lineageos.preference.SystemSettingSeekBarPreference
+            android:key="qs_header_image"
+            android:icon="@drawable/ic_header"
+            android:title="@string/qs_header_image_title"
+            android:defaultValue="0"
+            settings:interval="1"
+            android:max="13"
+            android:min="0" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
